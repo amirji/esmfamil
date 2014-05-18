@@ -1,0 +1,39 @@
+.background-img {
+	width: 1368px;
+	height: 768px;
+	margin: 0;
+	background-image: url("/images/7.jpg");
+	position: fixed;
+	-webkit-animation-name: bg-sw;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: 100000;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+@-webkit-keyframes bg-sw {
+	0% {
+		background-image:  url('/images/1.jpg');
+	}
+	20% {
+		background-image:   url('/images/2.jpg');
+	}
+	40% {
+		background-image:  url('/images/3.jpg');
+	}
+	60% {
+		background-image:  url('/images/4.jpg');
+	}
+	80% {
+		background-image:   url('/images/5.jpg');
+	}
+	100% {
+		background-image:   url('/images/6.jpg');
+	} 
+}
+
+#canvas {
+	position: absolute;
+}
